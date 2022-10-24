@@ -1,5 +1,5 @@
 .sidebar {
-    background: linear-gradient(90deg,  rgb(21, 32, 32) 0%,  rgb(76, 51, 138));
+    background: linear-gradient(90deg,  #c3b59b 30%,  #6c6456);
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -13,6 +13,8 @@
     justify-self: start;
     margin-left: 1rem;
     cursor: pointer;
+    text-decoration: none;
+    height: 6rem;
 }
 
 .sidebar-button {
@@ -51,7 +53,7 @@
 }
 
 .sidebar-item:hover {
-    background-color: aqua;
+    background-color: #38342c;
     transition: all 0.2s ease-in-out;
     border-radius: 0.5rem;
 }
@@ -93,7 +95,7 @@
     }
 
     .sidebar-items.active {
-        background: rgb(76, 51, 138);
+        background: #6c6456;
         left: 0;
         opacity: 1;
         transition: all 0.2s ease;
@@ -106,7 +108,7 @@
         display: table;
     }
     .sidebar-item:hover {
-        background-color: blueviolet;
+        background-color: #c3b59b;
         border-radius: 0;
     }
 

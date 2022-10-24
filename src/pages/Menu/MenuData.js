@@ -1,13 +1,4 @@
-require.context('../../images', false, /\.(png|jpe?g|svg)$/)
-function importAll(r) {
-    let images = {};
-     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
-    return images
-}
-export const images = importAll(require.context('../../images', false, /\.(png|jpe?g|svg)$/));
-
-console.log(images)
-
+import {images} from '../../components/images.js'
 export const MenuItems = [
     {
         image: images['hummus.jpg'],

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {SidebarItems} from './SidebarData.js'
 import './Sidebar.css'
+import {images} from '../images'
 //import {Link} from 'react-router-dom'
 //import {Button} from '../Button.js'
 
@@ -19,7 +20,9 @@ class Sidebar extends Component {
         return (
             <nav className='sidebar'>
                 <h1 className='sidebar-logo'>
-                    The Garden Mediterranean Grill
+                    <a href='/' className='sidebar-logo'>
+                    <img src={images['main-logo.png']} alt={images['no-preview.png']} className='sidebar-logo'/>
+                    </a>
                 </h1>
                 <div className='sidebar-button-mobile'>
                     <div className='sidebar-button' onClick={this.handleClick}>

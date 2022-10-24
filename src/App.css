@@ -8,3 +8,7 @@
 .App {
   text-align: center;
 }
+
+.not-found {
+  font-size: 2rem;
+}
