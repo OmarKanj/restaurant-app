@@ -1,4 +1,5 @@
 import { Component } from "react";
+//import {images} from '../components/images'
 import './Contact.css'
 
 class ContactPage extends Component {
@@ -8,14 +9,14 @@ class ContactPage extends Component {
             <div className="contact">
                 <span className="contact-title">Contact Us</span>
                 <div className="contact-info">
-                    <div>E-mail:
-                        <a href="mailto:thegardenmediterraneangrill@gmail.com">
+                    <div className="contact-info-element">E-mail:
+                        <a href="mailto:thegardenmediterraneangrill@gmail.com" style={{marginLeft: '0.5rem'}}>
                             thegardenmediterraneangrill@gmail.com
                         </a>
                     </div>
-                    <div>Phone:
-                        <a href="tel:9494213782">
-                            9494213782
+                    <div className="contact-info-element">Phone:
+                        <a href="tel:9494213782" style={{marginLeft: '0.5rem'}}>
+                            (949)421-3782
                         </a>
                     </div>
                 </div>
