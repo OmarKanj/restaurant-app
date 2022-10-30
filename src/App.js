@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import HomePage from './pages/Home/Home'
 import MenuPage from './pages/Menu/Menu'
 import ContactPage from './pages/Contact';
 import './App.css';
@@ -26,7 +27,7 @@ function App() {
 function Home () {
     return (
         <div className="App">
-            Home
+            <HomePage/>
         </div>
     )
 }

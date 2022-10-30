@@ -20,7 +20,9 @@ class MenuPage extends Component {
                 <div className="submenu-title">The Garden Mediterranean</div>
                 {getMenuByType('special', false)}
                 <div className="submenu-title">Desserts</div>
-                {getMenuByType('cold_appetizers', false)}
+                {getMenuByType('dessert', true)}
+                <div className="submenu-title">Wraps</div>
+                {getMenuByType('wraps', false)}
             </div>
         )
     }

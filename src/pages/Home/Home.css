@@ -1,0 +1,6 @@
+.home {
+    background-image: url('../../images/background.jpg');
+    background-size: 600px;
+    background-repeat: repeat;
+    align-self: center;
+}

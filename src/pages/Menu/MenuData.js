@@ -153,41 +153,49 @@ export const MenuItems = {
     wraps : [
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            name: "Beef Kebob Wrap",
+            desc: "Grilled beef filet with onions, parsley, sumac, and grilled tomatoes with tahini sauce.",
+            price: "12",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            name: "Chicken Shawrma Wrap",
+            desc: "Chicken breast shawrma with garlic sauce, pickles, and tomatoes.",
+            price: "11",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            name: "Kofta Kebob Wrap",
+            desc: "Grilled spiced ground beef with onions, parsley, sumac and grilled tomatoes.",
+            price: "11",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            name: "Falafel Wrap",
+            desc: "Home made falafel with lettuce, radishes, tomatoes, and tahini sauce.",
+            price: "10",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            name: "Gyro Wrap",
+            desc: "Sliced roast lamb with onion and tomato stuffed into pita bread.",
+            price: "11",
+            cName: "menu-item",
+            alt: images['no-preview.png']
+        },
+        {
+            image: images['hummus.jpg'],
+            name: "Beef Shawarma Wrap",
+            desc: "Beef shawrma with onions, parsley, tomatoes, pickles, and tahini sauce.",
+            price: "11",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
@@ -268,44 +276,20 @@ export const MenuItems = {
             alt: images['no-preview.png']
         },
     ],
-    lunch_set : [
+    dessert : [
         {
-            image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            image: images['baklavah.jpg'],
+            name: "Baklavah",
+            desc: "Four pieces of Mediterranean pastries made with fresh pistachious and honey.",
+            price: "10",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
-            image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
-            cName: "menu-item",
-            alt: images['no-preview.png']
-        },
-        {
-            image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
-            cName: "menu-item",
-            alt: images['no-preview.png']
-        },
-        {
-            image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
-            cName: "menu-item",
-            alt: images['no-preview.png']
-        },
-        {
-            image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
-            price: "",
+            image: images['ashta-bassal.jpg'],
+            name: "Ashta B'assal",
+            desc: "Freshly homemade cream topped with shredded phyllo doughy and crushed pistachios, drizzled with special homemade syrup",
+            price: "10",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
@@ -395,7 +379,15 @@ export const MenuItems = {
     drinks : [
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
+            name: "Soft Drinks",
+            desc: "Coca-Cola products",
+            price: "",
+            cName: "menu-item",
+            alt: images['no-preview.png']
+        },
+        {
+            image: images['hummus.jpg'],
+            name: "Beverages",
             desc: "",
             price: "",
             cName: "menu-item",
@@ -403,32 +395,40 @@ export const MenuItems = {
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
+            name: "Iced Tea",
+            desc: "Choice of raspberry or unsweetened.",
             price: "",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
+            name: "Coffee (Americana)",
+            desc: "Traditional American Coffee.",
             price: "",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
+            name: "Tea",
+            desc: "Choice of green or black tea.",
             price: "",
             cName: "menu-item",
             alt: images['no-preview.png']
         },
         {
             image: images['hummus.jpg'],
-            name: "Hummus",
-            desc: "",
+            name: "Fruit Juice",
+            desc: "Choice of orange or apple juice.",
+            price: "",
+            cName: "menu-item",
+            alt: images['no-preview.png']
+        },
+        {
+            image: images['hummus.jpg'],
+            name: "Coffee (Mediterranean)",
+            desc: "Espresso style Turkish coffee.",
             price: "",
             cName: "menu-item",
             alt: images['no-preview.png']
