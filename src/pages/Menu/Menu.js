@@ -7,43 +7,44 @@ class MenuPage extends Component {
     render() {
         return (
             <div className="menu">
-                <span className="submenu-title">Cold Appetizers</span>
-                {getMenuByType('cold_appetizers')}
-                <span className="submenu-title">Soups and Salads</span>
-                {getMenuByType('soups_salads')}
-                <span className="submenu-title">Hot Appetizers</span>
-                {getMenuByType('hot_appetizers')}
-                <span className="submenu-title">Entree</span>
-                {getMenuByType('entree')}
-                <span className="submenu-title">Individual Sides</span>
-                {getMenuByType('sides')}
-                <span className="submenu-title">The Garden Mediterranean</span>
-                {getMenuByType('special')}
-                <span className="submenu-title">Desserts</span>
-                {getMenuByType('cold_appetizers')}
+                <div className="submenu-title">Cold Appetizers</div>
+                {getMenuByType('cold_appetizers', true)}
+                <div className="submenu-title">Soups and Salads</div>
+                {getMenuByType('soups_salads', true)}
+                <div className="submenu-title">Hot Appetizers</div>
+                {getMenuByType('hot_appetizers', true)}
+                <div className="submenu-title">Entree</div>
+                {getMenuByType('entree', true)}
+                <div className="submenu-title">Individual Sides</div>
+                {getMenuByType('sides', false)}
+                <div className="submenu-title">The Garden Mediterranean</div>
+                {getMenuByType('special', false)}
+                <div className="submenu-title">Desserts</div>
+                {getMenuByType('cold_appetizers', false)}
             </div>
         )
     }
 }
 
-function getMenuByType (type) {
+function getMenuByType (type, showImages) {
     return (
-        <ul>
-            {MenuItems[type].map((item, index) => {
-                return (
-                    <li key={index} className="menu-item">
-                        <div className={item.cName}>
-                            <img src={item.image} alt='no preview' className='item-image'></img>
-                            <i className={`${item.icon}`}></i>
-                            <div className="menu-item-text">
-                                <span className="menu-item-name">{item.name}</span>
-                                <span className="menu-item-desc">{item.desc}</span>
-                            </div>
-                        </div>
-                    </li>
-                )
-            })}
-        </ul>
+        <div className="submenu-content">
+            <ul>
+                {MenuItems[type].map((item, index) => {
+                    return (
+                        <li key={index} className="menu-item">
+                                {showImages ? <img src={item.image} alt='no preview' className='item-image'></img> : <div></div>}
+                                <i className={`${item.icon}`}></i>
+                                <div className="menu-item-text">
+                                    <span className="menu-item-name">{item.name}</span>
+                                    <span className="menu-item-desc">{item.desc}</span>
+                                    <span className="menu-item-price">{item.price}</span>
+                                </div>
+                        </li>
+                    )
+                })}
+            </ul>
+        </div>
     )
 }
 

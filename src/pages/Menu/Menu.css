@@ -2,9 +2,11 @@
     background-image: url('../../images/background.jpg');
     background-size: 600px;
     background-repeat: repeat;
+    align-self: center;
 }
 
 .submenu-title {
+    padding: 2rem;
     font-size: 2rem;
     font-weight: 1000;
 }
@@ -14,6 +16,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .menu-item-text {
@@ -32,9 +35,44 @@
     padding-left: 0.5rem;
 }
 
+.menu-item-price {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .item-image {
     height: 200px;
     width: 300px;
     object-fit: cover;
     border-radius: 2rem;
+    justify-self: start;
+}
+
+@media screen and (max-width: 600px) {
+
+    .item-image {
+        height: 100px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 2rem;
+        justify-self: start;
+    }
+
+    .menu-item-name {
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .menu-item-desc {
+        padding-left: 0.2rem;
+        font-size: 0.8rem;
+    }
+
+    .menu-item-price {
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
