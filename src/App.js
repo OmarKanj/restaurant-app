@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import HomePage from './pages/Home/Home'
 import MenuPage from './pages/Menu/Menu'
 import ContactPage from './pages/Contact';
+import OrderPage from './pages/Order/Order';
 import './App.css';
 import Sidebar from "./components/Sidebar/Sidebar.js"
 
@@ -16,8 +17,7 @@ function App() {
             <Route exact path='/contact' element={<Contact/>}/>
             <Route exact path='/order' element={<Order/>}/>
             <Route exact path='/about' element={<About/>}/>
-            <Route path="*" element={<NotFound/>}
-            />
+            <Route path="*" element={<Menu/>}/>
         </Routes>
         </div>
     </Router>
@@ -51,6 +51,7 @@ function Contact () {
 function Order () {
     return (
         <div className="App">
+            <OrderPage/>
         </div>
     )
 }
@@ -58,16 +59,6 @@ function Order () {
 function About () {
     return (
         <div className="App">
-        </div>
-    )
-}
-
-function NotFound () {
-    return (
-        <div>
-            <h2 className='not-found'>
-                Error: 404 Page not found
-            </h2>
         </div>
     )
 }

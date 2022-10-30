@@ -1,0 +1,16 @@
+.order {
+    background-image: url('../../images/background.jpg');
+    background-size: 600px;
+    background-repeat: repeat;
+    align-self: center;
+}
+
+.order-button {
+    height: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .order-button {
+        height: 150px;
+    }
+}

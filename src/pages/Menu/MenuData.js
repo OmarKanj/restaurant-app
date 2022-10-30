@@ -387,14 +387,6 @@ export const MenuItems = {
         },
         {
             image: images['hummus.jpg'],
-            name: "Beverages",
-            desc: "",
-            price: "",
-            cName: "menu-item",
-            alt: images['no-preview.png']
-        },
-        {
-            image: images['hummus.jpg'],
             name: "Iced Tea",
             desc: "Choice of raspberry or unsweetened.",
             price: "",
