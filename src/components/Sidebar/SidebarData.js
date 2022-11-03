@@ -23,10 +23,10 @@ export const SidebarItems = [
         cName: "sidebar-item",
         href: "/order"
     },
-    {
-        icon: "fa-solid fa-info",
-        name: "About us",
-        cName: "sidebar-item",
-        href: "/about"
-    },
+    // {
+    //     icon: "fa-solid fa-info",
+    //     name: "About us",
+    //     cName: "sidebar-item",
+    //     href: "/about"
+    // },
 ]

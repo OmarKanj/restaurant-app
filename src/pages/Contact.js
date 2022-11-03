@@ -21,6 +21,7 @@ class ContactPage extends Component {
                     </div>
                 </div>
                 <GoogleMaps/>
+                <span className="bottom-div"></span>
             </div>
         )
     }

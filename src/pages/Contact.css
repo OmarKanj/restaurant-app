@@ -11,8 +11,8 @@
 }
 
 .contact-title {
-    font-family: 'Brush Script MT', cursive;
     font-size: 3rem;
+    font-weight: bolder;
     padding: 1rem;
     margin: 1rem;
 }
@@ -32,5 +32,6 @@
 }
 
 .google-maps {
+    padding: 2rem;
     border-radius: 3rem;
 }

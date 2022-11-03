@@ -12,7 +12,11 @@
 }
 
 .menu-item {
-    padding: 1rem;
+    background-color: #c3b59b;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,7 +36,7 @@
 }
 
 .menu-item-desc {
-    padding-left: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .menu-item-price {
@@ -61,18 +65,19 @@
 
     .menu-item-name {
         padding: 1rem;
-        font-size: 1rem;
-        font-weight: bold;
+        font-size: 1.5rem;
+        font-weight: bolder;
     }
 
     .menu-item-desc {
         padding-left: 0.2rem;
         font-size: 0.8rem;
+        font-weight: bold;
     }
 
     .menu-item-price {
         padding: 1rem;
-        font-size: 1rem;
-        font-weight: bold;
+        font-size: 1.2rem;
+        font-weight: 800;
     }
 }
