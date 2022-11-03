@@ -16,7 +16,6 @@ function App() {
             <Route exact path='/menu' element={<Menu/>}/>
             <Route exact path='/contact' element={<Contact/>}/>
             <Route exact path='/order' element={<Order/>}/>
-            <Route exact path='/about' element={<About/>}/>
             <Route path="*" element={<Menu/>}/>
         </Routes>
         </div>
@@ -52,13 +51,6 @@ function Order () {
     return (
         <div className="App">
             <OrderPage/>
-        </div>
-    )
-}
-
-function About () {
-    return (
-        <div className="App">
         </div>
     )
 }

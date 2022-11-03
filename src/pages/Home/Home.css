@@ -37,8 +37,13 @@
     border-radius: 1rem;
 }
 
+.home-sufra {
+    margin-top: 1rem;
+    height: 8rem;
+}
+
 .home-picture-text {
-    padding-top: 0.5rem;
+    padding-bottom: 3rem;
     font-family: 'Brush Script MT', cursive;
     font-size: 1.5rem;
 }

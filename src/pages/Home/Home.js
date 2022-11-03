@@ -9,11 +9,9 @@ class Home extends Component {
                 <ul className="home-buttons">
                     {homeButtons.map((item, index)=> {
                         return (
-                            <li key={index} className="home-button">
-                                <a className="home-button" href={item.href}>
-                                    {item.name}
-                                </a>
-                            </li>
+                            <a className="home-button" href={item.href}>
+                                {item.name}
+                            </a>
                         )
                     })}
                 </ul>
@@ -23,12 +21,15 @@ class Home extends Component {
                 <a href="https://www.google.com/">
                     <img className="social-button" src={images['facebook-logo.png']} alt='no preview'></img>
                 </a>
-                <div className="home-pic">
+                <div>
                     <img className='home-picture'src={images['home-pic1.jpg']} alt='no preview'></img>
                 </div>
-                <span className="home-picture-text">
+                <div>
+                    <img className='home-sufra'src={images['sufra.png']} alt='no preview'></img>
+                </div>
+                <div className="home-picture-text">
                     "may your table always be plentiful" - A traditional syrian expression of gratitude
-                </span>
+                </div>
             </div>
         )
     }

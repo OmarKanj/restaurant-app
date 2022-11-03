@@ -2,8 +2,6 @@ import React, {Component} from 'react'
 import {SidebarItems} from './SidebarData.js'
 import './Sidebar.css'
 import {images} from '../images'
-//import {Link} from 'react-router-dom'
-//import {Button} from '../Button.js'
 
 class Sidebar extends Component {
     state = {
