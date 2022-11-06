@@ -9,10 +9,10 @@ class MenuPage extends Component {
             <div className="menu">
                 <div className="submenu-title">Cold Appetizers</div>
                 {getMenuByType('cold_appetizers', true)}
-                <div className="submenu-title">Soups and Salads</div>
-                {getMenuByType('soups_salads', true)}
                 <div className="submenu-title">Hot Appetizers</div>
                 {getMenuByType('hot_appetizers', true)}
+                <div className="submenu-title">Soups and Salads</div>
+                {getMenuByType('soups_salads', true)}
                 <div className="submenu-title">Entree</div>
                 {getMenuByType('entree', true)}
                 <div className="submenu-title">Individual Sides</div>
@@ -33,7 +33,7 @@ class MenuPage extends Component {
 function getMenuByType (type, showImages) {
     return (
         <div className="submenu-content">
-            <ul>
+            <ul className="submenu-content">
                 {MenuItems[type].map((item, index) => {
                     return (
                         <li key={index} className="menu-item">
