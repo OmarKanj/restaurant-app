@@ -59,16 +59,16 @@
     justify-self: start;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     .menu-item {
         background-color: #c3b59b;
+        width: 100%;
         margin: 1rem;
         border-radius: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
         display: flex;
-        width: unset;
         flex-direction: row;
         align-items: center;
         justify-content: center;
