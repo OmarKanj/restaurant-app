@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { images } from "../../components/images";
+import { Link } from "react-router-dom"
 import './Home.css'
 
 class Home extends Component {
@@ -9,9 +10,9 @@ class Home extends Component {
                 <ul className="home-buttons">
                     {homeButtons.map((item, index)=> {
                         return (
-                            <a className="home-button" href={item.href}>
+                            <Link className="home-button" to={item.href}>
                                 {item.name}
-                            </a>
+                            </Link>
                         )
                     })}
                 </ul>

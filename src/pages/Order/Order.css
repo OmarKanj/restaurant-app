@@ -9,6 +9,17 @@
     height: 200px;
 }
 
+.order-button-pickup {
+    height: 170px;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.pickup-order {
+    height: 700px;
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     .order-button {
         height: 150px;

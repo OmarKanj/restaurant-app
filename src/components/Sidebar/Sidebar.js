@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Link } from "react-router-dom"
 import {SidebarItems} from './SidebarData.js'
 import './Sidebar.css'
 import {images} from '../images'
@@ -31,10 +32,10 @@ class Sidebar extends Component {
                     {SidebarItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.cName} href={item.href}>
+                                <Link className={item.cName} to={item.href} onClick={this.handleClick}>
                                 <i className={`${item.icon} sidebar-icon-settings`}></i>
                                 {item.name}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}
