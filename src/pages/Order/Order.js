@@ -7,9 +7,9 @@ class OrderPage extends Component {
         return (
             <div className="order">
                 <iframe class="pickup-order" 
-                type="text/html" 
-                src="https://bonappetittogo.app/ordering/ca/thegardengrilloc/"
+                src="https://bonappetittogo.app/ordering/ca/thegardengrilloc/index.php"
                 title="order-for-pickup"
+                allowfullscreen
                 />
             </div>
         )

@@ -16,10 +16,10 @@ class Home extends Component {
                         )
                     })}
                 </ul>
-                <a href="https://www.google.com/">
+                <a href="https://www.instagram.com/thegardenmediterraneangrill/">
                     <img className="social-button" src={images['instagram-logo.png']} alt='no preview'></img>
                 </a>
-                <a href="https://www.google.com/">
+                <a href="https://www.facebook.com/profile.php?id=100088031375927">
                     <img className="social-button" src={images['facebook-logo.png']} alt='no preview'></img>
                 </a>
                 <div>
